@@ -6,7 +6,7 @@ The examples suppose you will have the data for your containers in `/srv/mantis`
 
 ```
 mantisbt:
-  image: brlumen/docker-for-mantisbt:php7.3-xdebug
+  image: brlumen/docker-for-mantisbt:php5.5-xdebug
   environment:
         PHP_XDEBUG_ENABLED: 1
         XDEBUG_CONFIG: "remote_host=192.168.0.202

@@ -2,7 +2,7 @@
 # Dockerfile for mantisbt
 #
 
-FROM php:5.5-apache
+FROM php:5.5.25-apache
 MAINTAINER brlumen <igflocal@gmail.com>
 
 RUN a2enmod rewrite
